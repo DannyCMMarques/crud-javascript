@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sessao2 {
+  background-color: white;
+  border: red;
+}
+
+.subtitulo1 {
+  width: 257px;
+  height: 12px;
+  top: 124px;
+  left: 50px;
+  font-family: "Roboto";
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.sessao1 {
+  width: 100%;
+  height: 61px;
+  background-color: #eeeeee;
+  box-shadow: 0px 2px 2px 0px #0000001a;
+}
+
+.titleNav {
+  width: 100%;
+}
+
+h1 {
+  color: #8d8d8d;
+  width: 255px;
+  height: 28px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+  padding-top: 16px;
+  padding-left: 19px;
+}
+
+h2 {
+  color: #000000;
+  font-family: "Roboto";
+  font-weight: 300px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+}
+
+
+.imgPerson{
+    width: 9px;
+    height: 10px;
+    margin-right: 7px;
+}
+
+.titles {
+    margin: 0;
+}
+
+.buttons {
+    border-radius: 500px;
+    font-size: 10px;
+}
+
+.containerForm {
+    background: #FAFAFA;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.labelText {
+    width: 100%;
+    text-align: start;
+    font-size: 10px;
+}
+
+.tableTitle {
+    font-size: 13px;
+    font-weight: 500;
+    color: #707580;
+    text-align: start;
+}
+
+table {
+  caption-side: bottom;
+  border-collapse: separate !important;
+}
+
+.colorThead {
+  background: #F9FAFB;
+}
+
+@media (max-width: 512px) {
+  .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
